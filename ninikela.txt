@@ -1,0 +1,120 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.Design.Serialization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace NinikelaProject
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //ex2
+            /*
+            string a = Console.ReadLine();
+            string b = Console.ReadLine();
+
+            bool aIsDouble = double.TryParse(a, out double result1);
+            bool bIsDouble = double.TryParse(b, out double result2);
+            
+            if (aIsDouble && bIsDouble)
+            {
+                double sum = result1 + result2;
+                Console.WriteLine($"Sum is {sum}");
+
+                double subtract = result1 - result2;
+                Console.WriteLine($"Subtract {subtract}");
+
+                double multiply = result1 * result2;
+                Console.WriteLine($"multiply {multiply}");
+               
+            }*/
+
+            #region
+            //ex3
+            /*string rectangleSideA = Console.ReadLine();
+            string rectangleSideB = Console.ReadLine();
+
+            bool aIsInt = int.TryParse(rectangleSideA, out int result1);
+            bool bIsInt = int.TryParse(rectangleSideB, out int result2);
+
+            if (aIsInt && bIsInt)
+            {
+                int perimeter = (result1 + result2) * 2;
+                Console.WriteLine($"perimeter is {perimeter}");
+
+                int area = result1 * result2;
+                Console.WriteLine($"area is {area}");
+               Console.ReadLine();
+
+           }*/
+            #endregion
+
+            //ex4
+            /*string x = Console.ReadLine();
+            string y = Console.ReadLine();
+            string z = Console.ReadLine();
+
+            int.TryParse(x, out int a);
+            int.TryParse(y, out int b);
+            int.TryParse(z, out int c);
+
+            if ((a < b) && (a < c))
+            {
+                if (b < c)
+                {
+                    Console.WriteLine($"{a} {b} {c}");
+                }
+                else
+                {
+                    Console.WriteLine($"{a} {c} {b}");
+                }
+            }
+            else if ((b < a) && (b < c))
+            {
+                if (a < c)
+                {
+                    Console.WriteLine($"{b} {a} {c}");
+                }
+                else
+                {
+                    Console.WriteLine($"{b} {c} {a}");
+                }
+            }
+            else if ((c < a) && (c < b))
+            {
+                if (a < b)
+                {
+                    Console.WriteLine($"{c} {a} {b}");
+                }
+                else
+                {
+                    Console.WriteLine($"{c} {b} {a}");
+                }
+            }
+            Console.ReadLine();
+        }*/
+
+            //ex5
+
+            /*string number = Console.ReadLine();
+
+            bool umberIsInt = int.TryParse(number, out int result1);
+             
+            int a = result1 / 100;
+            int b = (result1 % 100)/10;
+            int c = ((result1 % 100)%10);
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            Console.WriteLine(c);
+            Console.ReadLine();
+
+        }*/
+        }
+}
+
+//ex1
+/*c# code> c# compiler > Common Intemediate Leanguage (CIL)>Common Language Runtime(CLR)>Machine Code */
